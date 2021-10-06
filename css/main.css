@@ -2240,11 +2240,11 @@ ul.filters li{
 }
 
 .section.booking {
-    background: url(../img/demo/booking/bg-booking.jpg) no-repeat center;
+    background: url(../img/gallery/image4.jpg) no-repeat center;
     background-size: cover;
 }
 body.dark-version .section.booking {
-    background: url(../img/demo/dark-version/booking/bg-booking.jpg) no-repeat center;
+    background: url(../img/gallery/image4.jpg) no-repeat center;
     background-size: cover;
 }
 .booking-form .form-control::-webkit-input-placeholder {
@@ -2552,6 +2552,15 @@ ul.menu-price li:last-child{
 .col-lg-4.padding030{
     padding:0px 30px;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+.padding0301 {
+    padding: 137px 30px 30px 30px !important;
+}
+}
+
 ul.menu-price li p span{
     float: right;
     color: #ce9852;
@@ -6327,6 +6336,7 @@ h4.small.center, h4.center, h4.small.right, h4.right {
     @media (max-width: 480px){
       .dining {
          margin-top: -152px;
+         
       }}
 
       @media (max-width: 480px){
@@ -6344,6 +6354,21 @@ h4.small.center, h4.center, h4.small.right, h4.right {
                padding-bottom: 92px;
             }}
 
+
+            @media (max-width: 480px){
+              .seafood {
+                 padding-top: 358px !important;
+              }}
+
+              @media (max-width: 480px){
+                .dining2 {
+                   padding-top: 161px !important;
+                }}
+
+                @media (max-width: 480px){
+                  .diningmenu {
+                     padding-top: 160px !important;
+                  }}
             
 
 
@@ -6362,7 +6387,39 @@ h4.small.center, h4.center, h4.small.right, h4.right {
               box-shadow: 2px 2px 3px #999;
               z-index:100;
             }
+
+            
             
             .my-float{
               margin-top:16px;
+            }
+
+          
+.float2 {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 122px;
+  left: 40px;
+  background-color: blue;
+  color: #FFF;
+  border-radius: 29px;
+  text-align: center;
+  font-size: 26px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+            .my-float2{
+              margin-top: 0px;
+    font-size: 20px !important;
+            }
+
+
+
+
+            .center {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              /*width: 50%;*/
             }
